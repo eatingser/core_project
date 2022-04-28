@@ -1,0 +1,51 @@
+body {
+  font-family: franklin gothic medium;
+  font-size: 1.1rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-flow: row wrap;
+  max-width: 40vw;
+  margin: auto;
+  align-items: baseline;
+}
+
+
+#greeting {
+  margin: 10px auto;
+  padding: 10px 60px;
+}
+
+#greeting:empty {
+  display: none;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
+}
+
+.but {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding:0;
+  text-indent: -1000em; 
+  cursor: pointer;
+  cursor: hand;
+  }
+
+
